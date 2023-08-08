@@ -70,6 +70,7 @@ def get_model_from_disk(model: str, dest: str = dest) -> str:
         filename = download_model_from_s3(model, dest)
     dirname = model.split('-')[0]
     model_full_path = os.path.join(filename, dirname, model)
+    
     return model_full_path
 
 
