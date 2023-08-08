@@ -11,6 +11,7 @@ This is a small Flask project that lets you run NLP on AWS Lambda hosting Spacy 
 # Testing
 
 `pipenv install -d` to install also dev dependencies  
+
 `pytest`
 
 # Before running it
